@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.ttf') format('truetype');
+}
+
+#draw {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  font-size: 100px;
+  text-align: center;
+  opacity: 0.2;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  pointer-events: none;
+}
+
+#light {
+  position: absolute;
+  opacity: 0.0;
+  display: block;
+  pointer-events: none;
+  cursor: move;
+  width: 75px;
+}
+
+.icon {
+  font-family: 'iconfont';
+  font-size: 150%;
+  float: right;
+}
+
+.github:before {
+  content: 'b';
+}
